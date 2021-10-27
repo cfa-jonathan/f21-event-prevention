@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Preventing Event Default Functionality</title>
+    <script src="./event-prevention.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <p>Characters: <span id="characterCounter">loading...</span></p>
+    <input type="text" id="inputPrevention" value="Whatever is typed here will be alerted">
+    <p><a href="https://www.youtube.com/" id="clickPrevention">Click to Alert Input</a></p>
+    <br><br>
+    <form id="loginPrevention" method="GET" action="./submitted.html">
+        <input type="text" name="username" placeholder="User Name">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Log In">
+    </form>
+</body>
+</html>
